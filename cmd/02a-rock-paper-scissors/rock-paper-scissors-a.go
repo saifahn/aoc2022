@@ -11,7 +11,7 @@ import (
 func main() {
 	// scan each line
 	// each line, scan the chars into vars
-	file, err := os.Open("data/02-test")
+	file, err := os.Open("data/02-real")
 	if err != nil {
 		log.Fatal(err)
 	}
