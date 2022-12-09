@@ -11,7 +11,7 @@ func main() {
 	// read line
 	// check it is divisible by 2
 	// split it into 2
-	file, err := os.Open("data/03-test")
+	file, err := os.Open("data/03-real")
 	if err != nil {
 		log.Fatal(err)
 	}
